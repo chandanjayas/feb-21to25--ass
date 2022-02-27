@@ -1,0 +1,55 @@
+body{
+    background: url("./1.jpg")
+}
+h1{
+    font-size: 60px;
+}
+.logo{
+    position: relative;
+    left: 90px;
+}
+.navi{
+    position: absolute;
+    left:460px;
+    top: 60px;
+}
+.navi span{
+    margin-left: 60px;
+    font-weight: bold;
+}
+.submitbtn{
+    padding: 8px 30px;
+    border-radius: 15px;
+    border:2px solid white;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.submitbtn:hover{
+    background-color: aqua;
+    opacity: 0.8;
+    color: black;
+}
+.landig_page{
+    margin-left: 90px;
+    margin-top:100px;
+    font-size: 30px;
+}
+p{
+    margin-left: 90px;
+}
+.lbutton{
+    margin-left: 130px;
+    margin-top: 60px;
+}
+button{
+    padding: 10px 30px;
+    border:1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: blue;
+}
+button:hover{
+    background-color: chocolate;
+    color: black;
+}

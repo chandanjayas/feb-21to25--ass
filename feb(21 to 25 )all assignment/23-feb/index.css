@@ -1,0 +1,134 @@
+body{
+    background-image: url('./2.jpg');
+    display: flex;
+    justify-content:space-evenly;
+}
+.div1{
+    background-image: url("./night.jpeg");
+    height: 450px;
+    width: 20%;
+    float: right;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-top: 55px;
+    border: 2px solid whitesmoke;
+    opacity: 0.8;
+    padding: 12px 15px;
+    /* overflow: scroll; */
+}
+.section{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    margin-top: 120px;
+}
+.section:hover{
+    background-color: yellowgreen;
+}
+.g-logo{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+    position: relative;
+    padding-top: 10px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 538px;
+    padding-top: 13px;
+}
+.f-logo{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    position:relative;
+    padding-top:3px;
+}
+.anchor1{
+    text-decoration: none;
+    color: black;
+    position:absolute;
+    left:538px;
+    padding-top:3px ;
+}
+.section1{
+    background-color: whitesmoke;
+    padding-top: 12px;
+    border-radius: 5px;
+}
+.section1:hover{
+    background-color: yellowgreen;
+}
+.div2{
+    background-image: url("./1.jpg");
+    height: 450px;
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+    margin-top: 55px;
+    opacity: 0.8;
+    border: 2px solid whitesmoke;
+    padding: 12px 15px;
+    /* overflow: scroll; */
+}
+img{
+    height: 100px;
+    width: 100px;
+    padding-top: 25px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+p{
+    color:black;
+    text-align: center;
+}
+[type="text"] ,[type="password"]{
+    width:80%;
+    padding: 8px 12px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.submitbtn{
+    background-color: green;
+    border:1px solid #ccc;
+    width: 80%;
+    color: white;
+    padding: 8px 12px;
+    margin: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submitbtn:hover{
+    opacity: 0.6;
+}
+.remenberme{
+    color: black;
+}
+.container2{
+    background-color: #ccc;
+    padding: 29px 12px;
+    border-radius: 5px;
+    margin: 2px 5px;
+    
+}
+.cancelbtn{
+    width: 40%;
+    float:left;
+}
+.forgotbtn{
+    width: 60%;
+    float:right;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+}    
